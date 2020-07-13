@@ -2,7 +2,7 @@
   "name": "extreme-backend",
   "version": "1.0.0",
   "description": "eXtreme web shop backend in progress",
-  "main": "backend/server.js",
+  "main": "dist/backend/server.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
     "build": "rm -rf dist && babel backend -d dist",
@@ -23,9 +23,5 @@
     "@babel/node": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "nodemon": "^2.0.4"
-  },
-  "engines": {
-    "node": "13.7.0",
-    "npm": "6.13.6"
   }
 }
