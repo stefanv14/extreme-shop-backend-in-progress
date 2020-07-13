@@ -1,13 +1,6 @@
 {
   "name": "extreme-backend",
   "version": "1.0.0",
-  "engines": {
-    "node": "13.7.0"
-  },
-  "keywords": [
-    "extreme",
-    "shop"
-  ],
   "description": "eXtreme web shop backend in progress",
   "main": "backend/server.js",
   "scripts": {
